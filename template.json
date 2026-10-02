@@ -1,0 +1,16 @@
+{
+  "name": "usd-checkout",
+  "description": "Pay in USD, settle in HBAR using a price oracle",
+  "version": "1.0.0",
+  "create-scaffold-hbar": {
+    "capabilities": {
+      "frontend": ["nextjs-app"],
+      "solidityFramework": ["foundry"],
+      "packageManager": ["npm", "yarn", "pnpm"]
+    },
+    "defaults": {
+      "frontend": "nextjs-app",
+      "solidityFramework": "foundry"
+    }
+  }
+}
